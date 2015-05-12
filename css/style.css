@@ -198,14 +198,15 @@
 	.header-content a {
 		background: #282828;
 		color: #fff;
-		font-family: 'montserratregular';
-		font-size: 0.9em;
+		font-family: 'montserratbold';
+		font-size: 1em;
 		text-transform: uppercase;
 		border-radius: 50px;
 		margin-bottom: 4em;
 		display: block;
 		text-align: center;
-		padding: 1.2em 1em;
+		padding: 1.3em 1em;
+		width: 18em;
 	}
 
 .mobile {
@@ -257,7 +258,50 @@
 	 	color: #646464;
 	 	padding-right: 4em;
 		padding-left: 4em;
+		padding-bottom: 4em;
 	 }
+
+.clown {
+	background: url(../img/clown-bg.jpg) top center;
+	background-size: cover;
+}
+
+.clown-content {
+	margin-left: 2.3em;
+}
+
+	.clown h1 {
+		text-transform: uppercase;
+		font-size: 2.5em;
+		font-family: 'montserratregular';
+		color: #fff;
+		margin-top: 3.2em;
+	}
+
+		.clown h1 span {
+			color: #f55150;
+		}
+
+	.clown p {
+		font-family: 'HelveticaLight';
+	 	color: #646464;
+	 	margin-top: 2em;
+	}
+
+	.clown a {
+		background: #d9332d;
+		display: block;
+		text-transform: uppercase;
+		padding: 0.8em 0.4em;
+		color: #fff;
+		font-family: 'montserratbold';
+		font-size: 0.9em;
+		text-align: center;
+		border-radius: 2em;
+		margin-top: 5em;
+		width: 9em;
+		margin-bottom: 7em;
+	}
 
  /*.block-inner {
     position: relative;
