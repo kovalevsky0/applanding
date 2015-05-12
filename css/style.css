@@ -85,7 +85,6 @@
 .container {
 	width: 100%;
 	margin: 0 auto;
-	background: #d2d2d2;
 }
 
 .container .cols {
@@ -126,7 +125,7 @@
 
 .header {
 	background: url(../img/header-bg.jpg) top center;
-	padding-top: 50px;
+	padding-top: 2.5em;
 	background-size: cover;
 }
 .logo {
@@ -136,13 +135,14 @@
 		color: #fff;
 		font-family: 'olivierregular';
 		font-size: 1.5em;
-		margin-left: 45px;
+		margin-left: 1.2em;
 	}
 
 .menu {
 	float: right;
 	height: auto;
-	margin-top: 10px;
+	margin-top: 0.5em;
+	margin-right: 1em;
 }
 
 	.menu li {
@@ -172,7 +172,11 @@
 			}
 
 
-.header-main {padding-top: 150px;}
+.header-main {
+	padding-top: 150px;
+	float: left;
+	padding-left: 1.5em;
+}
 .header-content {
 	float: right;
 }
@@ -197,9 +201,11 @@
 		font-family: 'montserratregular';
 		font-size: 0.9em;
 		text-transform: uppercase;
-		
 		border-radius: 50px;
-		margin-bottom: 23px;
+		margin-bottom: 4em;
+		display: block;
+		text-align: center;
+		padding: 1.2em 1em;
 	}
 
 .mobile {
@@ -210,16 +216,68 @@
 }
 
 .features {
-
+	padding-top: 2em;
+	margin-bottom: 3em;
 }
 	.features h1 {
 		color: #8a8a8a;
 		text-transform: uppercase;
 		font-family: 'montserratregular';
+		text-align: center;
+		font-size: 2.5em;
 	}
 
 	.features p {
 		font-family: 'HelveticaLight';
+		text-align: center;
+		color: #3a3a3a;
+		margin-top: 0.8em;
+		font-size: 1.3em;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 
+
+.features-blocks {
+	text-align: center;
+}
+
+	.features-blocks img {
+		margin-bottom: 2em;
+	}
+	 .features-blocks h3 {
+	 	text-transform: uppercase;
+	 	font-family: 'montserratregular';
+	 	color: #1a1a1a;
+	 	margin-bottom: 2em;
+	 }
+
+	 .features-blocks p {
+	 	font-family: 'HelveticaLight';
+	 	color: #646464;
+	 	padding-right: 4em;
+		padding-left: 4em;
+	 }
+
+ /*.block-inner {
+    position: relative;
+    height: 0;
+    border: none;
+    padding-top: 14em;
+}
+
+.features-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 8em;
+    height: 12em;
+    margin-left: 28%;
+}
+
+.icon-one {background: url(../img/features-icon-1.png) no-repeat; background-size: auto;}
+.icon-two {background: url(../img/features-icon-2.png) no-repeat; background-size: auto;}
+.icon-three {background: url(../img/features-icon-3.png) no-repeat; background-size: auto;}
+*/
 
