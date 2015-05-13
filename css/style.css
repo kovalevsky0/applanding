@@ -303,6 +303,29 @@
 		margin-bottom: 7em;
 	}
 
+
+.slides {
+	text-align: center;
+}
+
+.slides li h3 {
+	font-family: 'HelveticaLight';
+	font-size: 1.7em;
+	font-weight: normal;
+	color: #787878;
+	padding-right: 7em;
+	padding-left: 7em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.slides li p {
+	padding-bottom: 3em;
+	color: #d9332d;
+	font-family: 'montserratregular';
+	font-weight: bold;
+}
+
  /*.block-inner {
     position: relative;
     height: 0;
