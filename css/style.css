@@ -131,7 +131,7 @@
 .logo {
 	float: left;
 }
-	.logo h1 a {
+	.logo a {
 		color: #fff;
 		font-family: 'olivierregular';
 		font-size: 1.5em;
@@ -209,11 +209,16 @@
 		width: 18em;
 	}
 
+.header-clear {
+	height: 1em;
+}
+
 .mobile {
 	background: url(../img/mobile-bg.png) top center no-repeat;
-	height:  644px;
-	float: left;
+	float: right!important;
+	height: 40em;
 	background-size: contain;
+	margin-top: -1em;
 }
 
 .features {
@@ -304,27 +309,58 @@
 	}
 
 
-.slides {
+.slider {
 	text-align: center;
+	padding-bottom: 4em;
 }
 
-.slides li h3 {
-	font-family: 'HelveticaLight';
-	font-size: 1.7em;
-	font-weight: normal;
-	color: #787878;
-	padding-right: 7em;
-	padding-left: 7em;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	.slides li h3 {
+		font-family: 'HelveticaLight';
+		font-size: 1.7em;
+		font-weight: normal;
+		color: #787878;
+		padding-right: 7em;
+		padding-left: 7em;
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+	.slides li p {
+		padding-bottom: 5em;
+		color: #d9332d;
+		font-family: 'montserratregular';
+		font-weight: bold;
+	}
+
+.footer {
+	background: #2d2e38;
+	padding-top: 8em;
 }
 
-.slides li p {
-	padding-bottom: 3em;
-	color: #d9332d;
-	font-family: 'montserratregular';
-	font-weight: bold;
-}
+	.footer-content h2 {
+		font-family: 'montserratregular';
+		font-size: 1em;
+		color: #fbfbfb;
+		float: none!important;
+		
+	}
+
+	.redbox {
+		background: #e74c3c;
+		height: 3em;
+		float: none!important;
+	}	
+	
+	.footer-content p {
+		font-family: 'montserratregular';
+		color: #fbfbfb;
+		float: left;
+	}
+
+	.footer-block-1 {
+		margin-left: 16.666666667%;
+	}
+
 
  /*.block-inner {
     position: relative;
